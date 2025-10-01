@@ -32,7 +32,7 @@
     "@angular/cli": "^20.1.5",
     "@angular/compiler-cli": "^20.1.6",
     "msw": "^2.10.4",
-    "typescript": ">=5.5"
+    "typescript": ">=5.9"
   },
   "msw": {
     "workerDirectory": [

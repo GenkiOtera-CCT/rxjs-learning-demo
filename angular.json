@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngrx-learning-demo": {
+    "rxjs-learning-demo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -40,7 +40,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/ngrx-learning-demo",
+            "outputPath": "dist/rxjs-learning-demo",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -93,10 +93,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ngrx-learning-demo:build:production"
+              "buildTarget": "rxjs-learning-demo:build:production"
             },
             "development": {
-              "buildTarget": "ngrx-learning-demo:build:development"
+              "buildTarget": "rxjs-learning-demo:build:development"
             }
           },
           "defaultConfiguration": "development"

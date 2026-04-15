@@ -1,10 +1,10 @@
 {
   "name": "RxJs-learning-demo",
-  "runArgs": ["--name", "ngrx-learning-demo"], // コンテナ名を指定
+  "runArgs": ["--name", "rxjs-learning-demo"], // コンテナ名を指定
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
 		"ghcr.io/devcontainers/features/node:1": {
-			"version": "22"
+			"version": "lts"
 		}
 	},
   "mounts": [

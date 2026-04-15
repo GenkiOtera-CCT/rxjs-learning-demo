@@ -1,9 +1,9 @@
 {
-  "name": "ngrx-learning-demo",
+  "name": "rxjs-learning-demo",
   "version": "0.0.0",
   "engines": {
-    "node": ">=22.0.0",
-    "npm": ">=10.0.0"
+    "node": ">=24.0.0",
+    "npm": ">=11.0.0"
   },
   "scripts": {
     "ng": "ng",
@@ -13,24 +13,24 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^20.1.6",
-    "@angular/cdk": "^20.1.4",
-    "@angular/common": "^20.1.6",
-    "@angular/compiler": "^20.1.6",
-    "@angular/core": "^20.1.6",
-    "@angular/forms": "^20.1.6",
-    "@angular/material": "^20.1.5",
-    "@angular/platform-browser": "^20.1.6",
-    "@angular/platform-browser-dynamic": "^20.1.6",
-    "@angular/router": "^20.1.6",
+    "@angular/animations": "^22.0.0-next.0",
+    "@angular/cdk": "^22.0.0-next.0",
+    "@angular/common": "^22.0.0-next.0",
+    "@angular/compiler": "^22.0.0-next.0",
+    "@angular/core": "^22.0.0-next.0",
+    "@angular/forms": "^22.0.0-next.0",
+    "@angular/material": "^22.0.0-next.0",
+    "@angular/platform-browser": "^22.0.0-next.0",
+    "@angular/platform-browser-dynamic": "^22.0.0-next.0",
+    "@angular/router": "^22.0.0-next.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular/build": "^20.1.5",
-    "@angular/cli": "^20.1.5",
-    "@angular/compiler-cli": "^20.1.6",
+    "@angular/build": "^22.0.0-next.0",
+    "@angular/cli": "^22.0.0-next.0",
+    "@angular/compiler-cli": "^22.0.0-next.0",
     "msw": "^2.10.4",
     "typescript": ">=5.5"
   },

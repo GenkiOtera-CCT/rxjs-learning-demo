@@ -14,7 +14,7 @@ import { Router, RouterOutlet } from '@angular/router';
     template: `
     <header>
       <mat-toolbar>
-        <span>NgrxLearningDemo</span>
+        <span>RxjsLearningDemo</span>
         <div class="spacer"></div>
         <mat-button-toggle-group
           [value]="selectedChildRoute"
